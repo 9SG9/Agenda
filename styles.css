@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background-image: url(https://wallpapercrafter.com/desktop1/545995-agenda-american-analysis-business-business-people.jpg);
+    background-color: rgba(128, 128, 128, .5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 0 16rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 4px, 0, 0.2);
+    backdrop-filter: blur(5px);
+    width: 70%;
+    height:9rem ;
+    
+}
+    
+
+
+header h1 {
+    margin-bottom: 3px;
+    
+  }
+  
+  header p {
+    margin-top: 3px;
+  }
+  h1{font-family:Poppins;
+font-size: 3rem;}
+
+main {
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    text-align: center;
+    gap: 5rem;
+    margin-bottom: 1rem;
+}
+
+#ingresodedatos, #resultados{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgba(0, 4px, 0, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    font-size: 15px;
+    padding:  5px 0 20px 0;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+button {
+    width: 33%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(102, 233, 131);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+    font-size: 17px;
+
+}
+
+button:hover {
+    background-color: rgb(25, 185, 4);
+}
+
+#ingresodedatos {
+    margin-left: 15rem;
+    width: 30%;
+}
+
+#resultados {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin:00px 10rem 0px 0px;
+    width: 70%;
+    font-size: 15px;
+}
+
+#resultados>div {
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+footer {
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
